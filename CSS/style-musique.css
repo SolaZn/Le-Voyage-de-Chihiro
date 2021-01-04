@@ -1,0 +1,31 @@
+body{
+    background: url(../content/images/palais.jpg) no-repeat center fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.titre h1, .sous-titre{
+    color: rgb(11, 29, 60);
+}
+
+.intro, .texte{
+    background-color: rgba(59, 87, 136, 0.8);
+}
+
+.intro p{
+    padding-top: 15px;
+    font-size: 1.7em;
+    font-style: italic;
+}
+
+@media screen and (max-width: 750px){
+    .entete {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+}
+#img1 {
+    background-attachment: fixed;
+    background-position: top;
+    background-image: url("../content/images/tunnel.jpg");
+}

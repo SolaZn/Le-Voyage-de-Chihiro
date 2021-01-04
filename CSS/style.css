@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Yoruka Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Yoruka Regular'), url('../content/fonts/Yoruka - Dafont.woff') format('woff');
+}
+
+body{
+    background: url(../content/images/dragon.jpg) no-repeat center fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+/*------------Navbar--------------*/
+#navbarNav{ 
+    justify-content: center;
+    font-family: 'Noto Sans JP', sans-serif;
+} 
+.nav-link{
+    color: whitesmoke!important;
+}
+.nav-link:hover{
+    color: rgba(255, 255, 255, 0.4)!important;
+}
+.navbar{
+    background-color: rgba(59, 87, 136, 0.3);
+    /* fixer la navbar peut être interessant */
+}
+
+.navbar li{
+    padding-left:20px;
+    padding-right:20px;
+}
+
+/*--------------Entete-----------------*/
+.entete {
+    height: 150px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.entete .titre h1{
+    margin-top: 29px;
+}
+
+.fleche img{
+    height: 30%;
+}
+
+/*------------Contenu de la page-------------*/
+.titre h1{
+    color: rgba(59, 87, 136, 1);
+    font-size: 5em;
+    font-family: 'Yoruka Regular', sans-serif;
+}
+
+p{
+    font-family: 'Castoro', sans-serif;
+    color: white;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+div{
+    background-color: transparent;
+}
+
+.img{
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 350px;
+    background-image: url("../content/images/chihiro.jpg");
+
+}
+
+.intro {
+    background-color: rgba(59, 87, 136, 0.5);
+}
+
+.intro p{
+    padding-top: 15px;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.sous-titre{
+    background-color: rgba(255, 255, 255, 0.3);
+    font-family: 'Yoruka Regular', sans-serif;
+    text-align: center;
+    color: rgba(59, 87, 136, 1);
+    height: 65px;
+    padding-top: 11px;
+}
+
+.texte {
+    background-color: rgba(59, 87, 136, 0.7);
+    padding-top: 21px;
+    padding-bottom: 21px;
+    /*padding-top: 40px;
+    padding-bottom: 40px;*/
+}
+
+.texte p{
+    margin-right: 9%;
+    margin-left: 9%;
+    text-align: justify;
+}
+
+/*--------------PIED-DE-PAGE-----------------*/
+
+.footer {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: rgb(99, 95, 95);
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.footer p{
+    font-size: 1.2em;
+}

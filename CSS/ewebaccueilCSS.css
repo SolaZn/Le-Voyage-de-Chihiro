@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Yoruka Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Yoruka Regular'), url('../content/fonts/Yoruka - Dafont.woff') format('woff');
+}
+
+body{
+    background: url(../content/images/chihiro_train.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+#navbarNav{
+    justify-content: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+} 
+.nav-link{
+    color: whitesmoke!important;
+}
+.nav-link:hover{
+    color: rgba(255, 255, 255, 0.4)!important;
+}
+
+li{
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.acc{
+    text-align: center;
+    padding-top: 200px;
+}
+h1{
+    background: -webkit-linear-gradient(whitesmoke 50%, transparent);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 8em;
+    font-family: 'Yoruka Regular', sans-serif;
+}
+#start{
+    width: 220px;
+    height: 60px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(100, 161, 157);
+    color: white;
+    opacity: 0.8;
+    margin: 15px;
+ 
+}
+#start:hover{
+    opacity: 1.3;
+}
+p{
+    color: rgba(245, 245, 245, 0.8);
+    font-size: 20px;
+}
+
