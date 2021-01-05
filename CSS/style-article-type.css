@@ -98,30 +98,6 @@ div{
 }
 
 /*----------images-----------*/
-#img1{
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 350px;
-    background-image: url("../content/images/chihiro.jpg");
-}
-
-#img2{
-    background-attachment: fixed;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 350px;
-    background-image: url("../content/images/tunnel.jpg");
-}
-
-#img3{
-    background-attachment: fixed;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 350px;
-    background-image: url("../content/images/cote.png");
-}
 
 .intro {
     background-color: rgba(59, 87, 136, 1);
@@ -157,11 +133,15 @@ div{
 }
 
 .mini-texte{
-    font-size: 0.5em;
+    font-size: 0.7em;
+}
+
+.suite-texte p{
+    font-size: 1.8em;
 }
 
 .citation p{
-    font-size: 2.4em;
+    font-size: 2.3em;
     font-style: italic;
     text-align: center;
 }

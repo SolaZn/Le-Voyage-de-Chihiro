@@ -9,7 +9,7 @@ body{
 }
 
 .intro, .texte{
-    background-color: rgba(59, 87, 136, 0.8);
+    background-color: rgba(59, 87, 136, 0.9);
 }
 
 @media screen and (max-width: 750px){
@@ -25,3 +25,49 @@ body{
     background-image: url("../content/images/tunnel.jpg");
     height: 1vm;
 } 
+
+#img2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 350px;
+    background-image: url("../content/images/tunnel.jpg");
+}
+
+#img3{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 350px;
+    background-image: url("../content/images/parc.jpg");
+}
+
+#img4{
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 350px;
+    background-image: url("../content/images/chihiro_regards.jpg");
+}
+
+#img5{
+    background-size: cover;
+    background-position: bottom;
+    min-height: 350px;
+    background-image: url("../content/images/yubabz.jpg");
+}
+
+#img6{
+    background-size: cover;
+    background-position: bottom;
+    min-height: 350px;
+    background-image: url("../content/images/mont.png");
+}
+
+.citation{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgba(59, 87, 136, 0.35);
+    width: 100%;
+}

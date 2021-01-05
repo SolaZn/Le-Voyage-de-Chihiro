@@ -1,5 +1,5 @@
 body{
-    background: url(../content/images/chihiro_train.jpg) no-repeat center fixed;
+    background: url(../content/images/long.jpg) no-repeat center fixed;
     background-size: cover;
     overflow-x: hidden;
 }
@@ -8,7 +8,7 @@ body{
     color: rgb(11, 29, 60);
 }
 
-.intro, .texte{
+.intro, .texte, .suite-texte{
     background-color: rgba(59, 87, 136, 0.8);
 }
 
@@ -24,8 +24,37 @@ body{
         overflow-x: hidden;
     }
 }
+
 #img1 {
-    background-attachment: fixed;
-    background-position: top;
-    background-image: url("../content/images/tunnel.jpg");
+    background-size: cover;
+    background-position: bottom;
+    min-height: 350px;
+    background-image: url("../content/images/hisaishi2.jpg");
+}
+
+#img2 {
+    background-size: cover;
+    background-position: bottom;
+    min-height: 350px;
+    background-image: url("../content/images/chihiroseule.jpg");
+}
+
+.citation{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgba(59, 87, 136, 0.25);
+    width: 100%;
+}
+
+.contexterne iframe{
+    margin-left: 2%;
+    margin-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+img{
+    max-width: 100%;
 }
