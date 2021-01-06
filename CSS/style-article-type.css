@@ -146,6 +146,12 @@ div{
     text-align: center;
 }
 
+.bloc{
+    box-shadow: 20px 20px 55px black;
+    z-index: 1;
+}
+
+
 /*--------------PIED-DE-PAGE-----------------*/
 
 .footer {

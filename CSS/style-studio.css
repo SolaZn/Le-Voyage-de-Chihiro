@@ -93,6 +93,11 @@ p{
 div{
     background-color: transparent;
 }
+.textbloc{
+    box-shadow: 20px 20px 55px black;
+    z-index: 1;
+}
+
 
 /*----------images-----------*/
 #img1{
@@ -181,5 +186,24 @@ div{
 .footer p{
     font-size: 1.2em;
 }
+
+button{
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: 'Yoruka Regular', sans-serif;
+    text-align: center;
+    color: rgba(59, 87, 136, 1);
+    height: 65px;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 1300px) {
+    #img3, #img2{
+        width: 100vw;
+    }
+    #bloc{
+        width: 100vw;
+    }
+}
+
 
 

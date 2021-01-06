@@ -39,14 +39,15 @@ h1{
     font-family: 'Yoruka Regular', sans-serif;
 }
 #start{
-    width: 220px;
-    height: 60px;
+    width: 300px;
+    height: 100px;
     border-radius: 10px;
     border-style: none;
-    background-color: rgb(100, 161, 157);
+    background-color: rgb(135, 206, 235);
     color: white;
     opacity: 0.8;
     margin: 15px;
+    font-size: 25px;
 }
 
 #start:hover{

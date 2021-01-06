@@ -17,9 +17,9 @@
 </head>
 
 <body>
-
+    <div id="top"></div>
     <!--MENU-->
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(0,0,0,0.4)" ;>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(0,0,0,0.4)">
         <div class="container-fluid">
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
@@ -40,8 +40,8 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="synopsis.html" id="navbarDropdownMenuLink"
-                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="synopsis.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
                             Synopsis
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -59,7 +59,7 @@
                         <a class="nav-link" href="musique.html">Musique</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="apropos.html">A propos</a>
+                        <a class="nav-link" href="finduvoyage.html">Annexes</a>
                     </li>
                 </ul>
             </div>
@@ -108,7 +108,7 @@
     <!--DEBUT CONTENU-->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-7 paragraphe">
+            <div class="col-md-7 paragraphe textbloc">
                 <div class="row">
                     <div class="col-md-12 sous-titre">
                         <h2>Un nom qui en dit long !</h2>
@@ -131,7 +131,7 @@
         <br>
         <div class="row">
             <div class="col-md-2"></div>
-            <div class="col-md-8 paragraphe">
+            <div class="col-md-8 paragraphe textbloc">
                 <div class="row">
                     <div class="col-md-12 sous-titre">
                         <h2>Nouveau studio, nouveau depart</h2>
@@ -166,7 +166,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-6 img" id="img2"></div>
-            <div class="col-md-6">
+            <div class="col-md-6 textbloc">
                 <div class="row">
                     <div class="col-md-12 sous-titre">
                         <h2>Envol du studio et premiers succes</h2>
@@ -202,7 +202,7 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 textbloc">
                 <div class="row">
                     <div class="col-md-12 sous-titre">
                         <h2>Une expansion fulgurante</h2>
@@ -234,7 +234,7 @@
     <div class="container-fluid" id="outro">
         <div class="row">
             <div class="col-md-2"></div>
-            <div class="col-md-8 paragraphe">
+            <div class="col-md-8 paragraphe textbloc">
                 <div class="row">
                     <div class="col-md-12 texte">
                         <p>La suite de l’histoire est quant à elle un peu plus connue. Le studio Ghibli continuera de
@@ -250,28 +250,28 @@
                             site internet, sur l’un des films les plus célèbre du studio Ghibli : “Le voyage de
                             Chihiro”.
                         </p>
-
+                        
                     </div>
                 </div>
             </div>
             <div class="col-md-2"></div>
         </div>
+        
     </div>
     <br />
     <!--FIN CONTENU-->
-
+    
     <!--DEBUT FOOTER-->
     <div class="row">
+        <button id="start" onclick="window.location.href='#top';">Haut de page</button>
         <div class="footer">
             <p>© Studio Ghibli/WILD BUNCH A.G. | Tous droits réservés (2002)
             </p>
         </div>
     </div>
     <!--FIN FOOTER-->
-</body>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
     crossorigin="anonymous"></script>
-
+</body>
 </html>

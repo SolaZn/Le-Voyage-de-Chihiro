@@ -9,7 +9,7 @@ body{
 }
 
 .intro, .texte{
-    background-color: rgba(59, 87, 136, 0.9);
+    background-color: rgba(59, 87, 136, 0.97);
 }
 
 @media screen and (max-width: 750px){
@@ -70,4 +70,13 @@ body{
     padding-right: 5%;
     background-color: rgba(59, 87, 136, 0.35);
     width: 100%;
+}
+
+button{
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: 'Yoruka Regular', sans-serif;
+    text-align: center;
+    color: rgba(59, 87, 136, 1);
+    height: 65px;
+    font-size: 30px;
 }
