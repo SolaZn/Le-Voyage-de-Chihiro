@@ -57,6 +57,14 @@ body{
     width: 30%;
 }
 
+.entete .titre h3{
+    font-family: 'Yoruka Regular', sans-serif;
+    color:  rgba(59, 87, 136, 1);
+    font-size: 3vw!important;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
 @media screen and (max-width: 750px) {
     .fleche{
         width: 30vw;
@@ -80,6 +88,15 @@ body{
 
     .fleche img{
         width: 40%;
+    }
+}
+
+@media screen and (max-width: 1299px) {
+    #img1{
+        width: 100vw;
+    }
+    .bloc{
+        width: 100vw;
     }
 }
 
@@ -109,6 +126,10 @@ div{
 #img1 img{
     height: 100%;
     width: 100%;
+    padding: 0px;
+}
+
+#img1{
     padding: 0px;
 }
 
