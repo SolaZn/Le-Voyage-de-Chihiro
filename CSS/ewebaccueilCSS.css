@@ -9,7 +9,7 @@ body{
     background: url(../content/images/chihiro_train.jpg) no-repeat center fixed;
     background-size: cover;
 }
-#navbarNav{
+#navbarNavDropdown{
     justify-content: center;
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 20px;

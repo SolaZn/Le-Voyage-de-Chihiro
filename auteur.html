@@ -2,289 +2,184 @@
 <html lang="fr">
 
 <head>
-      <title>Auteur</title>
-      <link rel="icon" href="content/images/favicon.png">
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-      <link rel="stylesheet" type="text/css" href="CSS/style-article-type.css">
-      <link rel="stylesheet" type="text/css" href="CSS/style-auteur.css">
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Noto+Sans+JP&display=swap"
-            rel="stylesheet">
+    <title>Auteur</title>
+    <link rel="icon" href="content/images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="CSS/style-article-type.css">
+    <link rel="stylesheet" type="text/css" href="CSS/style-auteur.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Noto+Sans+JP&display=swap"
+        rel="stylesheet">
 
-      <!-- Required meta tags -->
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 
 <body>
 
-      <!--MENU-->
-      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(0,0,0,0.4)" ;>
-            <div class="container-fluid">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                              <li class="nav-item">
-                                    <a class="nav-link" href="accueil.html">Accueil</a>
-                              </li>
-                              <li class="nav-item">
-                                    <a class="nav-link" href="studio.html">Studio Ghibli</a>
-                              </li>
-                              <li class="nav-item">
-                                    <a class="nav-link" href="auteur.html">Auteur</a>
-                              </li>
-                              <li class="nav-item">
-                                    <a class="nav-link" href="synopsis.html">Synopsis</a>
-                              </li>
-                              <li class="nav-item">
-                                    <a class="nav-link" href="universfilm.html">Univers du film</a>
-                              </li>
-                              <li class="nav-item">
-                                    <a class="nav-link" href="article.html">Animation</a>
-                              </li>
-                              <li class="nav-item">
-                                    <a class="nav-link" href="musique.html">Musique</a>
-                              </li>
-                              </li>
+    <!--MENU-->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(0,0,0,0.4)" ;>
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="accueil.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="studio.html">Studio Ghibli</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="auteur.html" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Auteur
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="auteur.html">Enfance</a></li>
+                            <li><a class="dropdown-item" href="auteur-1.html">Carrière</a></li>
                         </ul>
-                  </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="synopsis.html" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Synopsis
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="synopsis.html">Les personnages</a></li>
+                            <li><a class="dropdown-item" href="synopsis-resume.html">Le résumé</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="universfilm.html">Univers du film</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="animation.html">Animation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="musique.html">Musique</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="apropos.html">A propos</a>
+                    </li>
+                </ul>
             </div>
-      </nav>
-      <!--FIN MENU-->
+        </div>
+    </nav>
+    <!--FIN MENU-->
 
-      <!--DEBUT ENTETE-->
-      <br />
-      <div class="container-fluid entete">
-            <div class="row">
-                  <div class="col-xs-3 col-sm-3 col-md-3 fleche gauche"><a href="#"> <img id="left"
-                                    src="content/images/fleched.png" alt="Fleche gauche" title="Page précédente" /></a>
-                  </div>
-                  <div class="col-xs-6 col-sm-6 col-md-6 titre">
-                        <h1>Auteur</h1>
-                  </div>
-                  <div class="col-xs-3 col-sm-3 col-md-3 fleche droite"><a href="#"> <img id="right"
-                                    src="content/images/fleche.png" alt="Fleche droite" title="Page suivante" /></a>
-                  </div>
+    <!--DEBUT ENTETE-->
+    <br />
+    <div class="container-fluid entete">
+        <div class="row">
+            <div class="col-xs-3 col-sm-3 col-md-3 fleche gauche"><a href="studio.html"> <img id="left"
+                        src="content/images/fleched.png" alt="Fleche gauche" title="Page précédente" /></a></div>
+            <div class="col-xs-6 col-sm-6 col-md-6 titre">
+                <h1>Auteur</h1>
             </div>
-      </div>
-      <!--FIN MENU-->
+            <div class="col-xs-3 col-sm-3 col-md-3 fleche droite"><a href="auteur-1.html"> <img id="right"
+                        src="content/images/fleche.png" alt="Fleche droite" title="Page suivante" /></a></div>
+        </div>
+    </div>
+    <!--FIN MENU-->
 
-      <br />
+    <br />
 
-      <!--DEBUT INTRO-->
-      <div class="container-fluid">
-            <div class="row">
-                  <div class="col-md-12 intro">
-                        <div class="container">
-                              <p>Hayao Miyazaki est né à Tokyo le 5 janvier 1941 et a vécu dans la ville d’Utsunomiya.
-                                    Ce dernier est dessinateur et réalisateur.
-                                    Il réalise au cours de sa vie une dizaine de films qui ont tous des thèmes
-                                    antimilitaristes et écologiques.
-                                    Ses films d’animations visent tous les publics : les enfants comme les adultes.
-                              </p>
-                        </div>
-                  </div>
+    <!--DEBUT INTRO-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 intro">
+                <div class="container">
+                    <p>Hayao Miyazaki est né à Tokyo le 5 janvier 1941 et a vécu dans la ville d’Utsunomiya. Ce dernier
+                        est dessinateur et réalisateur.<br />
+                        Il réalise au cours de sa vie une dizaine de films qui ont tous des thèmes antimilitaristes et
+                        écologiques.<br />
+                        Ses films d’animations visent tous les publics : les enfants comme les adultes.
+                    </p>
+                </div>
             </div>
-      </div>
-      <!--FIN INTRO-->
+        </div>
+    </div>
+    <!--FIN INTRO-->
 
-      <br />
+    <br />
 
-      <!--DEBUT CONTENU-->
-      <div class="container-fluid">
-            <div class="row">
-                  <div class="col-md-7 paragraphe">
-                        <div class="row">
-                              <div class="col-md-12 sous-titre">
-                                    <h2>Enfance</h2>
-                              </div>
-                              <div class="col-md-12 texte">
-                                    <p>Hayao Miyazaki est né le 5 janvier 1941 au quartier d’Akebono au nord de Tokyo.
-                                          Il fait partie d’une famille de quatre enfants dont il est le cadet.
-                                          Son enfance a été fortement bouleversée par la guerre sino-japonaise
-                                          (1937-1945).
-                                          À l’âge de quatre ans, la ville d’Utsunomiya, ville dans laquelle il vit, est
-                                          ruinée par les bombardements.
-                                          Cet épisode de sa vie a été profondément traumatisant pour lui.
-                                          En effet, lors de la réalisation de ses films des années plus tard, on peut
-                                          voir que ces ruines sont grandement illustrées.
-                                          Ensuite, à l’âge de de six ans, sa mère tombe gravement malade d’une
-                                          tuberculose spinale.
-                                          Elle est donc contrainte à rester au lit durant neuf années.
-                                          Ainsi, Hayao Miyazaki s'inspirera beaucoup de cette dernière dans ses futurs
-                                          films.
-                                          Comme par exemple, dans le film Mon voisin Totoro où la mère du personnage
-                                          principal est aussi en convalescence.
-                                          Ou encore dans « Le vent se lève » où Nahoko Satomi, l’héroïne principale est
-                                          aussi malade de la tuberculose.
-                                          Pour fuir la guerre, la famille Miyazaki a dû énormément se déplacer de 1947 à
-                                          1952, il fréquente donc trois écoles pendant cette période.
-                                          Il étudie au début à l’école d’Utsunomiya,
-                                          puis dans l’école élémentaire Omiya et termine par l’école élémentaire Eifuku
-                                          où il obtient son diplôme pour accéder au collège Omiya.
-                                          Après avoir obtenu son diplôme, il fréquente le lycée Toyotama, où il découvre
-                                          sa passion pour les mangas et les films d'animation.
-                                          Hayao Miyazaki souhaite alors devenir dessinateur.
-                                          Pour cela, il commence à réaliser des petits dessins d’avions et de bateaux
-                                          militaires étant donné qu’il s’agit d’une de ses passions
-                                          depuis son enfance de par le travail de son père qui est directeur d’une
-                                          entreprise aéronautique « Miyazaki Airplane ».
-                                          Après avoir réussi ses études au lycée Toyotama, il accède à l’université
-                                          Gakushuin où il étudie de 1959 à 1962 et y obtient son diplôme d’économie.
-                                    </p>
-                              </div>
-                        </div>
-                  </div>
-                  <div class="col-md-5 img" id="img1"></div>
+    <!--DEBUT CONTENU-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-7 bloc">
+                <div class="row">
+                    <div class="col-md-12 sous-titre">
+                        <h2>Enfance</h2>
+                    </div>
+                    <div class="col-md-12 texte">
+                        <p>Hayao Miyazaki est né le 5 janvier 1941 au quartier d’Akebono au nord de Tokyo.
+                            Il fait partie d’une famille de quatre enfants dont il est le cadet.
+                            Son enfance a été fortement bouleversée par la guerre sino-japonaise
+                            (1937-1945).<br /><br />
+                            À l’âge de quatre ans, la ville d’Utsunomiya, ville dans laquelle il vit, est ruinée par les
+                            bombardements.
+                            Cet épisode de sa vie a été profondément traumatisant pour lui.
+                            En effet, lors de la réalisation de ses films des années plus tard, on peut voir que ces
+                            ruines sont grandement illustrées.<br /><br />
+                            Ensuite, à l’âge de de six ans, sa mère tombe gravement malade d’une tuberculose spinale.
+                            Elle est donc contrainte à rester au lit durant neuf années.
+                            Ainsi, Hayao Miyazaki s'inspirera beaucoup de cette dernière dans ses futurs films.
+                            Comme par exemple, dans le film Mon voisin Totoro où la mère du personnage principal est
+                            aussi en convalescence.
+                            Ou encore dans « Le vent se lève » où Nahoko Satomi, l’héroïne principale est aussi malade
+                            de la tuberculose.<br /><br />
+                            Pour fuir la guerre, la famille Miyazaki a dû énormément se déplacer de 1947 à 1952, il
+                            fréquente donc trois écoles pendant cette période.
+                            Il étudie au début à l’école d’Utsunomiya,
+                            puis dans l’école élémentaire Omiya et termine par l’école élémentaire Eifuku où il obtient
+                            son diplôme pour accéder au collège Omiya.<br /><br />
+                            Après avoir obtenu son diplôme, il fréquente le lycée Toyotama, où il découvre sa passion
+                            pour les mangas et les films d'animation.
+                            Hayao Miyazaki souhaite alors devenir dessinateur.
+                            Pour cela, il commence à réaliser des petits dessins d’avions et de bateaux militaires étant
+                            donné qu’il s’agit d’une de ses passions
+                            depuis son enfance de par le travail de son père qui est directeur d’une entreprise
+                            aéronautique « Miyazaki Airplane ».
+                            Après avoir réussi ses études au lycée Toyotama, il accède à l’université Gakushuin où il
+                            étudie de 1959 à 1962 et y obtient son diplôme d’économie.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="row">
-                  <div class="col-md-2"></div>
-                  <div class="col-md-8 paragraphe">
-                        <div class="row">
-                              <div class="col-md-12 sous-titre">
-                                    <h2>Une organisation methodique</h2>
-                              </div>
-                              <div class="col-md-12 texte">
-                                    <p>Lors de la conception de films d’animation, plusieurs étapes sont nécessaires
-                                          pour créer une
-                                          animation à la fois cohérente et efficace.
-                                          Dans le cas du Voyage de Chihiro, on retrouve ces étapes malgré une ligne
-                                          directrice un peu
-                                          floue au tout début. En effet, le réalisateur Hayao Miyazaki a d’abord créé
-                                          lui-même le storyboard. On définit celui-ci comme une représentation illustrée
-                                          d’un film
-                                          avant sa réalisation. Plus concrètement, c’est une suite de dessins qui va
-                                          permettre
-                                          de définir l’aspect général du projet. C’est donc le réalisateur qui l’a conçu
-                                          dans un
-                                          premier temps en cherchant seulement à illustrer ses idées dans un ordre
-                                          aléatoire.
-                                          Le réalisateur a écrit le scénario du film tout en créant le storyboard en
-                                          parallèle ce qui
-                                          a demandé une charge de travail considérable.
-                                          Lors de la conception de films d’animation, plusieurs étapes sont nécessaires
-                                          pour créer une
-                                          animation à la fois cohérente et efficace.
-                                          Dans le cas du Voyage de Chihiro, on retrouve ces étapes malgré une ligne
-                                          directrice un peu
-                                          floue au tout début. En effet, le réalisateur Hayao Miyazaki a d’abord créé
-                                          lui-même le storyboard. On définit celui-ci comme une représentation illustrée
-                                          d’un film
-                                          avant sa réalisation. Plus concrètement, c’est une suite de dessins qui va
-                                          permettre
-                                          de définir l’aspect général du projet. C’est donc le réalisateur qui l’a conçu
-                                          dans un
-                                          premier temps en cherchant seulement à illustrer ses idées dans un ordre
-                                          aléatoire.
-                                          Le réalisateur a écrit le scénario du film tout en créant le storyboard en
-                                          parallèle ce qui
-                                          a demandé une charge de travail considérable.
-                                          Lors de la conception de films d’animation, plusieurs étapes sont nécessaires
-                                          pour créer une
-                                          animation à la fois cohérente et efficace.
-                                          Dans le cas du Voyage de Chihiro, on retrouve ces étapes malgré une ligne
-                                          directrice un peu
-                                          floue au tout début. En effet, le réalisateur Hayao Miyazaki a d’abord créé
-                                          lui-même le storyboard. On définit celui-ci comme une représentation illustrée
-                                          d’un film
-                                          avant sa réalisation. Plus concrètement, c’est une suite de dessins qui va
-                                          permettre
-                                          de définir l’aspect général du projet. C’est donc le réalisateur qui l’a conçu
-                                          dans un
-                                          premier temps en cherchant seulement à illustrer ses idées dans un ordre
-                                          aléatoire.
-                                          Le réalisateur a écrit le scénario du film tout en créant le storyboard en
-                                          parallèle ce qui
-                                          a demandé une charge de travail considérable.
-                                    </p>
-                              </div>
-                        </div>
-                  </div>
-                  <div class="col-md-2"></div>
+            <div class="col-md-5 img" id="img1"><img src="content/images/chihiro2.png" /></div>
+        </div>
+        <br />
+    </div>
+    <!--FIN CONTENU-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4"><img src="content/images/haku-text-1.png" style="width: 100%;" />
             </div>
-      </div>
-      <div class="container-fluid">
-            <div class="row">
-                  <div class="col-md-6 img" id="img2"></div>
-                  <div class="col-md-6">
-                        <div class="row">
-                              <div class="col-md-12 sous-titre">
-                                    <h2>Une organisation methodique</h2>
-                              </div>
-                              <div class="col-md-12 texte">
-                                    <p>Lors de la conception de films d’animation, plusieurs étapes sont nécessaires
-                                          pour créer une
-                                          animation à la fois cohérente et efficace.
-                                          Dans le cas du Voyage de Chihiro, on retrouve ces étapes malgré une ligne
-                                          directrice un peu
-                                          floue au tout début. En effet, le réalisateur Hayao Miyazaki a d’abord créé
-                                          lui-même le storyboard. On définit celui-ci comme une représentation illustrée
-                                          d’un film
-                                          avant sa réalisation. Plus concrètement, c’est une suite de dessins qui va
-                                          permettre
-                                          de définir l’aspect général du projet. C’est donc le réalisateur qui l’a conçu
-                                          dans un
-                                          premier temps en cherchant seulement à illustrer ses idées dans un ordre
-                                          aléatoire.
-                                          Le réalisateur a écrit le scénario du film tout en créant le storyboard en
-                                          parallèle ce qui
-                                          a demandé une charge de travail considérable.
-                                    </p>
-                              </div>
-                        </div>
-                  </div>
+            <div class="col-4"></div>
+            <div class="col-xs-12 col-sm-12 col-md-4"><img src="content/images/noface.png" style="width: 100%;" /></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-5"><img src="content/images/dragon-chibi.png" style="width: 100%;" />
             </div>
-      </div>
-      <div class="container-fluid">
-            <div class="row">
-                  <div class="col-md-6">
-                        <div class="row">
-                              <div class="col-md-12 sous-titre">
-                                    <h2>Une organisation methodique</h2>
-                              </div>
-                              <div class="col-md-12 texte">
-                                    <p>Lors de la conception de films d’animation, plusieurs étapes sont nécessaires
-                                          pour créer une
-                                          animation à la fois cohérente et efficace.
-                                          Dans le cas du Voyage de Chihiro, on retrouve ces étapes malgré une ligne
-                                          directrice un peu
-                                          floue au tout début. En effet, le réalisateur Hayao Miyazaki a d’abord créé
-                                          lui-même le storyboard. On définit celui-ci comme une représentation illustrée
-                                          d’un film
-                                          avant sa réalisation. Plus concrètement, c’est une suite de dessins qui va
-                                          permettre
-                                          de définir l’aspect général du projet. C’est donc le réalisateur qui l’a conçu
-                                          dans un
-                                          premier temps en cherchant seulement à illustrer ses idées dans un ordre
-                                          aléatoire.
-                                          Le réalisateur a écrit le scénario du film tout en créant le storyboard en
-                                          parallèle ce qui
-                                          a demandé une charge de travail considérable.
-                                    </p>
-                              </div>
-                        </div>
-                  </div>
-                  <div class="col-md-6 img" id="img3"></div>
-            </div>
-      </div>
-      <!--FIN CONTENU-->
-
-      <!--DEBUT FOOTER-->
-      <div class="row">
-            <div class="footer">
-                  <p>© Studio Ghibli/WILD BUNCH A.G. | Tous droits réservés (2002)
-                  </p>
-            </div>
-      </div>
-      <!--FIN FOOTER-->
+            <div class="col-2"></div>
+            <div class="col-xs-12 col-sm-12 col-md-5"><img src="content/images/totoro.png" style="width: 100%;" /></div>
+        </div>
+    </div>
+    <!--DEBUT FOOTER-->
+    <div class="row">
+        <div class="footer">
+            <p>© Studio Ghibli/WILD BUNCH A.G. | Tous droits réservés (2002)
+            </p>
+        </div>
+    </div>
+    <!--FIN FOOTER-->
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-      crossorigin="anonymous"></script>
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
 
 </html>

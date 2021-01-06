@@ -1,59 +1,277 @@
 <!DOCTYPE html>
+<html lang="fr">
 
 <head>
-      <title>Histoire du studio</title>
-      <link rel="icon" href="content/images/favicon.png">
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-      <link rel="stylesheet" type="text/css" href="CSS/style-article-type.css">
-      <link rel="stylesheet" type="text/css" href="CSS/style-studio.css">
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Noto+Sans+JP&display=swap"
-            rel="stylesheet">
+    <title>Le Studio Ghibli</title>
+    <link rel="icon" href="content/images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="CSS/style-studio.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Noto+Sans+JP&display=swap"
+        rel="stylesheet">
 
-      <!-- Required meta tags -->
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 
 <body>
-      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(0,0,0,0.4)" ;>
-            <div class="container-fluid">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                              <li class="nav-item">
-                                    <a class="nav-link" href="accueil.html">Accueil</a>
-                              </li>
-                              <li class="nav-item">
-                                    <a class="nav-link" href="studio.html">Studio Ghibli</a>
-                              </li>
-                              <li class="nav-item">
-                                    <a class="nav-link" href="auteur.html">Auteur</a>
-                              </li>
-                              <li class="nav-item">
-                                    <a class="nav-link" href="synopsis.html">Synopsis</a>
-                              </li>
-                              <li class="nav-item">
-                                    <a class="nav-link" href="universfilm.html">Univers du film</a>
-                              </li>
-                              <li class="nav-item">
-                                    <a class="nav-link" href="article.html">Animation</a>
-                              </li>
-                              <li class="nav-item">
-                                    <a class="nav-link" href="musique.html">Musique</a>
-                              </li>
-                              </li>
+
+    <!--MENU-->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(0,0,0,0.4)" ;>
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="accueil.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="studio.html">Studio Ghibli</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="auteur.html" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Auteur
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="auteur.html">Enfance</a></li>
+                            <li><a class="dropdown-item" href="auteur-1.html">Carrière</a></li>
                         </ul>
-                  </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="synopsis.html" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Synopsis
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="synopsis.html">Les personnages</a></li>
+                            <li><a class="dropdown-item" href="synopsis-resume.html">Le résumé</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="universfilm.html">Univers du film</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="animation.html">Animation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="musique.html">Musique</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="apropos.html">A propos</a>
+                    </li>
+                </ul>
             </div>
-      </nav>
-      <div class="row footer">
-            <p>© Studio Ghibli/WILD BUNCH A.G. | Tous droits réservés (2002)</p>
-      </div>
+        </div>
+    </nav>
+    <!--FIN MENU-->
+
+    <!--DEBUT ENTETE-->
+    <br />
+    <div class="container-fluid entete">
+        <div class="row">
+            <div class="col-xs-3 col-sm-3 col-md-3 fleche gauche"><a href="accueil.html"> <img id="left"
+                        src="content/images/fleched.png" alt="Fleche gauche" title="Page précédente" /></a></div>
+            <div class="col-xs-6 col-sm-6 col-md-6 titre">
+                <h1>Le Studio Ghibli</h1>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 fleche droite"><a href="auteur.html"> <img id="right"
+                        src="content/images/fleche.png" alt="Fleche droite" title="Page suivante" /></a></div>
+        </div>
+    </div>
+    <!--FIN MENU-->
+
+    <br />
+
+    <!--DEBUT INTRO-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 intro">
+                <div class="container">
+                    <p>Le studio Ghibli est un studio d’animation japonais fondé en 1985 par deux animateurs de talents
+                        : Isao Takahata et Hayao Miyazaki. Ce studio dont la réputation n’est plus à faire, produit
+                        principalement des courts et long-métrages mais aussi, plus rarement, des téléfilms, des animes
+                        et des jeux vidéo. Salué par la critique à tous les niveaux, les productions du studio Ghibli
+                        sont destinés à un très large public, enfants comme adultes. Le logo de Ghibli est une
+                        représentation d’un personnage emblématique de l’histoire du studio : Totoro, créature
+                        imaginaire du film éponyme “Mon voisin Totoro”.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FIN INTRO-->
+
+    <br />
+
+    <!--DEBUT CONTENU-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-7 paragraphe">
+                <div class="row">
+                    <div class="col-md-12 sous-titre">
+                        <h2>Un nom qui en dit long !</h2>
+                    </div>
+                    <div class="col-md-12 texte">
+                        <p>À l’origine, le studio devait prendre un nom japonais. Isao Takahata proposait donc Musashino
+                            Kobo qui signifie en français L’atelier Musashino. Mais ce nom ne convenait pas à Hayao
+                            Miyazaki. Il propose alors le nom Studio Ghibli. En effet, ayant hérité de la passion de son
+                            père pour l’aviation, Miyazaki propose alors le nom italien ghibli qui est le nom d’un avion
+                            de reconnaissance italien mais qui désigne aussi un vent chaud venu du désert. Ce nom
+                            exprime donc la volonté du studio à amener un nouveau souffle sur le monde de l’animation
+                            japonaise.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-5" id="img1"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 paragraphe">
+                <div class="row">
+                    <div class="col-md-12 sous-titre">
+                        <h2>Nouveau studio, nouveau depart</h2>
+                    </div>
+                    <div class="col-md-12 texte">
+                        <p>L’histoire du studio commence avant la création de celui-ci dans les années 50, Isao Takahata
+                            et Hayao Miyazaki travaillent alors au studio Toei Animation et appartiennent au même
+                            syndicat. Les deux compères travaillent sur le long métrage Horus, prince du soleil avant de
+                            quitter la Toei pour un nouveau studio où Takahata est réalisateur et Miyazaki est chargé de
+                            la conception scénique.
+                        </p>
+                        <p>Dans les années 80, les deux artisans de l’animation projettent d’adapter le manga de
+                            Miyazaki “Nausicaa de la Vallée du Vent” en long métrage d’animation. Se pose alors la
+                            question de savoir à quel studio confier cette tâche. Après avoir contacté de nombreuses
+                            sociétés, Takahata s’associe finalement avec son ami et ancien collègue de la Toei, Tôru
+                            Hara, fondateur du jeune studio Topcraft. Ensemble, ils animent donc le “Nausicaa de la
+                            Vallée du Vent” qui trouve succès auprès de la critique et de 915 000 spectateurs. Ce
+                            premier long métrage montre donc au monde qu’il est possible de produire de l’animation
+                            qualitative pour le cinéma. Cependant, même si le studio permet aux deux réalisateurs d'être
+                            libres et de pouvoir fournir des longs métrages d'animation de haute qualité, chaque film
+                            est un pari risqué. En effet, les recettes de chaque film permettent de financer les
+                            suivantes. Si une seule des productions du studio venait à être un échec, le studio ferait
+                            faillite et serait contraint de fermer.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 img" id="img2"></div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12 sous-titre">
+                        <h2>Envol du studio et premiers succes</h2>
+                    </div>
+                    <div class="col-md-12 texte">
+                        <p>En 1986 sort le premier film d’animation signé Ghibli : “Le Château dans le ciel”. C’est le
+                            premier succès du studio, le film est salué par la critique et comptabilise 775 000 entrées.
+                            Comme à son habitude, le studio réinvesti ses recettes dans deux projets ambitieux, deux
+                            longs métrages d’animation : “Mon voisin Totoro” (réalisé par Miyazaki) et “Le tombeau des
+                            lucioles” (réalisé par Takahata). Ces deux œuvres sortent simultanément en 1988 et
+                            renforcent la réputation et le gage de qualité du studio. Ghibli est salué par la critique
+                            et accumule les récompenses dans tous les festivals où ils sont présentés. Aujourd'hui ces
+                            films d'animation japonais font partie des plus connus et appréciés dans le monde.
+                        </p>
+                        <p>Mais le premier véritable succès qui fera connaître le studio au monde entier est le long
+                            métrage “Kiki, la petite sorcière” réalisé par Miyazaki en 1989. Avec près de 2 640 000
+                            entrées rien qu’au Japon, ce film permet au studio de désormais s'autofinancer et d'engager
+                            à plein temps, dès novembre 1990, une partie de l'équipe afin de bénéficier de l'expérience
+                            qu'elle a acquis. Il permet aussi de développer une section d'apprentissage qui accueille de
+                            nouveaux talents.
+                        </p>
+                        <p>En 1991, le long métrage réalisé par Takahata sort enfin. “Souvenirs goutte à goutte”
+                            rencontre un succès immédiat et termine en tête du box-office annuel. La même année, le
+                            studio franchit une nouvelle étape avec le doublement des salaires et la mise en place d'un
+                            recrutement régulier. Le studio applique aussi une nouvelle politique promotionnelle après
+                            la sortie de ce film afin d'augmenter les recettes aux box-offices. Ghibli est en plein
+                            essor et fait souffler sur le monde le vent de l’animation japonaise.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12 sous-titre">
+                        <h2>Une expansion fulgurante</h2>
+                    </div>
+                    <div class="col-md-12 texte">
+                        <p>Après le succès de “Souvenirs goutte à goutte”, Miyazaki se lance dans la réalisation de
+                            “Porco Rosso” qui puise son inspiration dans sa passion commune avec son père : l’aviation.
+                            Au même moment, il se lance dans le projet ambitieux de construire un nouveau studio pour
+                            Ghibli, considérant l’ancien trop inadapté pour les besoins des animateurs (90 personnes
+                            dans 300 m²). Miyazaki supervise lui-même la réalisation des plans du nouvel immeuble. Il
+                            souhaite un espace de travail clair, aéré et entouré de verdure. En 1992, le studio est
+                            terminé au même moment que le film. Sur plus de 1 100 m² et trois étages, le studio
+                            accueille désormais plus d’une centaine de personnes. </p>
+                        <p>À la suite de ce grand changement, le studio va continuer de réaliser toutes sortes de
+                            productions. En 1993 sort le premier et unique téléfilm animé ”Tu peux entendre la mer”
+                            réalisé par Tomomi Mochizuki, premier réalisateur du studio autre que Miyazaki et Takahata
+                            depuis la création de Ghibli. Puis sortira “Pompoko” de Takahata en 1994 et “Si tu tends
+                            l'oreille” en 1995. Enfin le studio réalisera un des longs métrages les plus célèbre de
+                            l’animation ”Princesse Mononoke” en 1997. Ces réalisations montrent alors au monde entier
+                            que le studio a su évoluer avec son temps et a pu améliorer la fluidité des animations, le
+                            rendu des reliefs grâce à l’utilisation des ordinateurs.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 img" id="img3"></div>
+        </div>
+    </div>
+    <div class="container-fluid" id="outro">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 paragraphe">
+                <div class="row">
+                    <div class="col-md-12 texte">
+                        <p>La suite de l’histoire est quant à elle un peu plus connue. Le studio Ghibli continuera de
+                            produire courts et longs métrages qui récolteront tous les hommages et un immense succès. On
+                            peut notamment citer “Le voyage de Chihiro”, “Le château ambulant”, “Ponyo sur la falaise”
+                            ou encore “Le conte de la princesse Kaguya”. Bien plus qu’un simple studio d’animation,
+                            Ghibli est une invitation au voyage. À travers son univers, son animation, ses visuels et
+                            ses musiques, chaque création de ce studio est une œuvre à part entière que chacun peut
+                            apprécier : qu’on soit enfant en quête d’aventure et de nouveaux mondes ou adulte à la
+                            recherche du sens profond de chaque image.
+                        </p>
+                        <p>C’est donc avec un profond plaisir que nous vous invitons à en apprendre plus, à travers ce
+                            site internet, sur l’un des films les plus célèbre du studio Ghibli : “Le voyage de
+                            Chihiro”.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+    <br />
+    <!--FIN CONTENU-->
+
+    <!--DEBUT FOOTER-->
+    <div class="row">
+        <div class="footer">
+            <p>© Studio Ghibli/WILD BUNCH A.G. | Tous droits réservés (2002)
+            </p>
+        </div>
+    </div>
+    <!--FIN FOOTER-->
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
 
 </html>

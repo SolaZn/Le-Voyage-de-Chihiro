@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Yoruka Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Yoruka Regular'), url('../content/fonts/Yoruka - Dafont.woff') format('woff');
+}
+
+.titre h2{
+    color: black;
+    font-size: 2em;
+    font-family: 'Yoruka Regular', sans-serif;
+}
+
+.perso {
+    margin-left: 3%;
+    border : 3px solid black;
+    border-radius: 3%;
+    margin-top: 1%;
+}
+
+p img {
+    margin-right: 3.4%;
+}
+
+.fleche{
+    width: 23vw;
+    }
+
+.fleche{
+    width: 23vw;
+ }
+.fleche img{
+    margin-top: 5%;
+}
+#right{
+    margin-left: 28%;
+}
+
+@media screen and (max-width: 1317px) and (min-width: 1094px) {
+    p img {
+    margin-right: 3.4%;
+    }
+    .fleche{
+        width: 23vw;
+    }
+
+    .fleche{
+        width: 23vw;
+        margin-top: 0.6%;
+    }
+    .fleche img{
+        margin-top: 5%;
+    }
+    #right{
+        margin-left: 28%;
+    }
+}
+
+@media screen and (max-width: 1093px) and (min-width: 1072px) {
+    .fleche{
+        width: 23vw;
+    }
+
+    .fleche{
+        width: 23vw;
+        margin-top: 1%;
+    }
+    .fleche img{
+        margin-top: 5%;
+    }
+    #right{
+        margin-left: 28%;
+    }
+}
+
+@media screen and (max-width: 950px) and (min-width: 750px) {
+    p img {
+    width: 95%;
+    }
+     .titre h2{
+    color: black;
+    font-size: 150%;
+    font-family: 'Yoruka Regular', sans-serif;
+    }
+    .fleche{
+    width: 23vw;
+    }
+
+.fleche{
+    width: 23vw;
+ }
+.fleche img{
+    margin-top: 5%;
+}
+#right{
+    margin-left: 28%;
+}
+}
+
+@media screen and (max-width: 749px) and (min-width: 0px) {
+        p img {
+    width: 95%;
+    }
+     .titre h2{
+    color: black;
+    font-size: 100%;
+    font-family: 'Yoruka Regular', sans-serif;
+    }
+        .fleche{
+        width: 23vw;
+    }
+
+    .fleche{
+        width: 23vw;
+        margin-top: 2%;
+    }
+    .fleche img{
+        margin-top: 5%;
+    }
+    #right{
+        margin-left: 28%;
+    }
+
+}

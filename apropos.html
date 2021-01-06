@@ -17,69 +17,47 @@
 </head>
 
 <body>
-
-    <!--MENU-->
-    <!--<nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse texte-menu navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav titre">
-                <li class="nav-item active">
-                    <a class="nav-link" href="Accueil.html">Accueil<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Compétences.html">Histoire</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Experiences.html">Auteur</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Contact.html">Synopsis</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Contact.html">Univers</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Contact.html">Animation</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Contact.html">Musique</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
--->
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(0,0,0,0.4)" ;>
         <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="accueil.html">Accueil</a>
+                        <a class="nav-link active" href="accueil.html">Accueil</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="studio.html">Studio Ghibli</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="auteur.html">Auteur</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="auteur.html" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Auteur
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="auteur.html">Enfance</a></li>
+                            <li><a class="dropdown-item" href="auteur-1.html">Carrière</a></li>
+                        </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="synopsis.html">Synopsis</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="synopsis.html" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Synopsis
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="synopsis.html">Les personnages</a></li>
+                            <li><a class="dropdown-item" href="synopsis-resume.html">Le résumé</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="universfilm.html">Univers du film</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="article.html">Animation</a>
+                        <a class="nav-link" href="animation.html">Animation</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="musique.html">Musique</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="apropos.html">A propos</a>
                     </li>
                 </ul>
             </div>

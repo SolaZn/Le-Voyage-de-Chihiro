@@ -11,7 +11,7 @@ body{
     overflow-x: hidden;
 }
 /*------------Navbar--------------*/
-#navbarNav{ 
+#navbarNavDropdown{ 
     justify-content: center;
     font-family: 'Noto Sans JP', sans-serif;
     font-size : 20px;
@@ -63,7 +63,7 @@ body{
     }
 
     .entete .titre{
-        width: 36.5vw;
+        width: 34.5vw;
     }
 
     .entete .titre h1{
@@ -103,6 +103,8 @@ div{
     background-size: cover;
     min-height: 350px;
     background-image: url("../content/images/frog.jpg");
+    border: solid 2px rgb(35, 60, 143);
+
 }
 
 #img2{
@@ -110,13 +112,16 @@ div{
     background-size: cover;
     min-height: 350px;
     background-image: url("../content/images/garcon.jpg");
+    border: solid 2px rgb(35, 60, 143);
+
 }
 
 #img3{
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 350px;
-    background-image: url("../content/images/ombres.jpg");
+    background-image: url("../content/images/garcon.jpg");
+    border: solid 2px rgb(35, 60, 143);
 }
 
 .intro {
@@ -134,7 +139,6 @@ div{
     font-family: 'Yoruka Regular', sans-serif;
     text-align: center;
     color: rgba(59, 87, 136, 1);
-    height: 65px;
     padding-top: 11px;
 }
 
@@ -152,6 +156,10 @@ div{
     text-align: justify;
 }
 
+.decor{
+    margin-top: 30px !important;
+    margin-bottom: 30px;
+}
 .mini-texte{
     font-size: 0.5em;
 }

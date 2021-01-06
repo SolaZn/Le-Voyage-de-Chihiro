@@ -1,0 +1,217 @@
+*{
+    padding: 0px;
+}
+
+.container-fluid{
+    padding: 0!important;
+}
+
+@font-face {
+    font-family: 'Yoruka Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Yoruka Regular'), url('../content/fonts/Yoruka - Dafont.woff') format('woff');
+}
+
+body{
+    background: url(../content/images/dragon.jpg) no-repeat center fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+/*------------Navbar--------------*/
+#navbarNav{ 
+    justify-content: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size : 20px;
+} 
+.nav-link{
+    color: whitesmoke!important;
+}
+.nav-link:hover{
+    color: rgba(255, 255, 255, 0.4)!important;
+}
+.navbar{
+    background-color: rgba(59, 87, 136, 0.3);
+    /* fixer la navbar peut être interessant */
+}
+
+.navbar li{
+    padding-left:20px;
+    padding-right:20px;
+}
+
+/*--------------Entete-----------------*/
+.entete {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.entete .titre h1{
+    
+    font-size: 5vw!important;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.entete .titre h3{
+    font-size: 2vw!important;
+    margin: 0 auto;
+    font-family: 'Yoruka Regular', sans-serif;
+}
+
+.fleche img{
+    width: 30%;
+}
+
+@media screen and (max-width: 750px) {
+    .fleche{
+        width: 30vw;
+    }
+
+    .fleche{
+        width: 30vw;
+    }
+
+    .gauche{
+        width: 30.1vw;
+    }
+
+    .entete .titre{
+        width: 36.5vw;
+    }
+
+    .entete .titre h1{
+        margin-top: 10px;
+    }
+
+    .fleche img{
+        width: 40%;
+    }
+
+    .xs{
+        display: inline-block;
+    }
+    .sm{
+        display: none;
+    }
+
+    .fond{
+        margin-bottom: 0px!important;
+    }
+}
+
+/*------------Contenu de la page-------------*/
+.titre h1{
+    color: rgba(59, 87, 136, 1);
+    font-size: 5em;
+    font-family: 'Yoruka Regular', sans-serif;
+}
+
+p{
+    font-family: 'Castoro', sans-serif;
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.paragraphe{
+    border-radius: 5%;
+}
+
+div{
+    background-color: transparent;
+}
+
+/*----------images-----------*/
+
+#img2{
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 350px;
+    background-image: url("../content/images/howl048.jpg");
+}
+
+#img3{
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 350px;
+    background-image: url("../content/images/cote.png");
+}
+
+@media screen and (min-width: 751px) {
+    .xs{
+        display: none;
+    }
+}
+
+
+.intro {
+    background-color: rgba(59, 87, 136, 1);
+}
+
+.intro p{
+    padding-top: 15px;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.sous-titre{
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: 'Yoruka Regular', sans-serif;
+    text-align: center;
+    color: rgba(59, 87, 136, 1);
+    height: 65px;
+    padding-top: 11px;
+}
+
+.sous-entete{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.sous-entete h3{
+    font-size: 2.5em;
+    color: rgba(59, 87, 136, 1);
+    font-family: 'Yoruka Regular', sans-serif;
+}
+
+.texte {
+    background-image: rgba(59, 87, 136, 0.7);
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+.bloc{
+    box-shadow: 20px 20px 55px black;
+    z-index: 1;
+}
+
+.texte p{
+    margin-right: 9%;
+    margin-left: 9%;
+    text-align: justify;
+}
+
+.fond{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/*--------------PIED-DE-PAGE-----------------*/
+
+.footer {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: rgb(99, 95, 95);
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.footer p{
+    font-size: 1.2em;
+}

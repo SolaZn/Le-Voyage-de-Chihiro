@@ -11,10 +11,10 @@ body{
     overflow-x: hidden;
 }
 /*------------Navbar--------------*/
-#navbarNav{ 
+#navbarNavDropdown{
     justify-content: center;
     font-family: 'Noto Sans JP', sans-serif;
-    font-size : 20px;
+    font-size: 20px;
 } 
 .nav-link{
     color: whitesmoke!important;
