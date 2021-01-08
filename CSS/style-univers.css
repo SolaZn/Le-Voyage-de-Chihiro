@@ -22,7 +22,7 @@ body{
 .img{
     background-attachment: fixed;
     background-position: top;
-    background-image: url("../content/images/tunnel.jpg");
+    background-image: url("../content/images/tunnel.png");
     height: 1vm;
 } 
 
@@ -30,7 +30,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 350px;
-    background-image: url("../content/images/tunnel.jpg");
+    background-image: url("../content/images/tunnel.png");
 }
 
 #img3{
@@ -46,14 +46,14 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 350px;
-    background-image: url("../content/images/chihiro_regards.jpg");
+    background-image: url("../content/images/chihiro_regards.png");
 }
 
 #img5{
     background-size: cover;
     background-position: bottom;
     min-height: 350px;
-    background-image: url("../content/images/yubabz.jpg");
+    background-image: url("../content/images/yubabz.png");
 }
 
 #img6{

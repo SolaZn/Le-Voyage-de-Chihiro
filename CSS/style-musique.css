@@ -29,14 +29,14 @@ body{
     background-size: cover;
     background-position: bottom;
     min-height: 350px;
-    background-image: url("../content/images/hisaishi2.jpg");
+    background-image: url("../content/images/hisaishi2.png");
 }
 
 #img2 {
     background-size: cover;
     background-position: bottom;
     min-height: 350px;
-    background-image: url("../content/images/chihiroseule.jpg");
+    background-image: url("../content/images/chihiroseule.png");
 }
 
 .citation{
